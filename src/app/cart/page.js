@@ -10,7 +10,7 @@ import toast, { Toaster } from 'react-hot-toast';
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 import { useEffect } from 'react'
-import { useCart } from '../../utils/UseCart'
+import { useCart } from '../../utils/useCart'
 
 const page = () => {
     const { cartCount, cartItems, cartTotal, incrementCartItems, decrementCartItems, deleteAllItems, deleteById } = useCart()
