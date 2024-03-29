@@ -1,6 +1,6 @@
 "use client"
 import toast, { Toaster } from 'react-hot-toast';
-import { useCart } from '../utils/UseCart';
+import { useCart } from '../utils/useCart';
 
 const AddToCart = ({product}) => {
  const {addItem} = useCart()
