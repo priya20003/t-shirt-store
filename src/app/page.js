@@ -9,7 +9,7 @@ const Page = async () => {
   return (
     <div>
       <div className=' bg-slate-400 h-130  p-5'>
-   <h1 className=' text-6xl flex justify-center font-extrabold px-7 py-4  text-blue-950'>INDIA MOST PURCHASE SHOES</h1>
+   <h1 className=' text-6xl flex justify-center font-extrabold px-7 py-4  text-blue-950'>INDIA MOST PURCHASE T-SHIRT</h1>
    </div>
    <div className="m-4 flex flex-wrap gap-2">
     {products.data.map(item=>  <ProductCard  key={item.id} item={item}/>)}
